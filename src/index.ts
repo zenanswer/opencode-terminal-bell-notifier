@@ -59,3 +59,8 @@ export const TerminalBellNotifierPlugin: Plugin = async ({ client }) => {
     },
   };
 };
+
+export default {
+  id: "opencode-terminal-bell-notifier",
+  setup: TerminalBellNotifierPlugin,
+};
